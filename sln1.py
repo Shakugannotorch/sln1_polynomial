@@ -31,7 +31,7 @@ dir_R_matrices = "/Users/data/R_matrices"
 _cache = dict()
 
 def sln1_R_matrices(n, sage_polynomials=False):
-    if 1 < n <= 5:
+    if 1 < n <= 3:
         key = (f"sl{n}1", sage_polynomials)
         if key in _cache.keys():
             return _cache[key]
